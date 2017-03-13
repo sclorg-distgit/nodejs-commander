@@ -1,0 +1,25 @@
+From 33938fd48d8b2282ac517921fdb735546a674beb Mon Sep 17 00:00:00 2001
+From: Piotr Popieluch <piotr1212@gmail.com>
+Date: Sat, 18 Jul 2015 14:54:40 +0200
+Subject: [PATCH] Fix Node engine dependency
+
+---
+ package.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/package.json b/package.json
+index ee1dee2..204a651 100644
+--- a/package.json
++++ b/package.json
+@@ -22,7 +22,7 @@
+   },
+   "main": "index",
+   "engines": {
+-    "node": ">= 0.6.x"
++    "node": ">= 0.6.0"
+   },
+   "files": [
+     "index.js"
+-- 
+2.4.3
+
